@@ -12,4 +12,8 @@
   .container {
     @apply max-w-1480 px-[20px] mx-auto w-full;
   }
+
+  .image {
+    @apply max-w-full size-full block object-cover;
+  }
 }
