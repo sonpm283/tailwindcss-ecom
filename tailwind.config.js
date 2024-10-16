@@ -14,6 +14,8 @@ module.exports = {
         seconday: "#385472",
         gray: "#ebebe9",
         lightGray: "#8a8a8a",
+        green: "#0ed678",
+        midGray: "#646464",
       },
       spacing: {
         // 100: "100px",
@@ -64,11 +66,31 @@ module.exports = {
             transform: "translateX(0)",
           },
         },
+
+        zoomInOut: {
+          "0%": {
+            transform: "scale(0.8)",
+          },
+          "100%": {
+            transform: "scale(1)",
+          },
+        },
+
+        flicker: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
       },
 
       animation: {
         zoomIn: "zoomIn .8s ease-out",
         slideInLeft: "slideInLeft .5s ease-out backwards",
+        zoomInOut: "zoomInOut 1s ease-out alternate infinite",
+        flicker: "flicker .8s ease-out alternate infinite",
       },
     },
   },
