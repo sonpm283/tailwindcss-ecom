@@ -14,6 +14,6 @@
   }
 
   .image {
-    @apply max-w-full size-full block object-cover;
+    @apply max-w-full size-full block object-cover hover:scale-110 transition-all duration-300;
   }
 }

@@ -52,10 +52,23 @@ module.exports = {
             opacity: "1",
           },
         },
+
+        slideInLeft: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-150px)",
+          },
+
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
       },
 
       animation: {
         zoomIn: "zoomIn .8s ease-out",
+        slideInLeft: "slideInLeft .5s ease-out backwards",
       },
     },
   },
