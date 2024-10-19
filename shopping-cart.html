@@ -77,18 +77,18 @@
             <h2 class="text-3xl font-semibold text-center">Shopping Cart</h2>
 
             <div class="container">
-              <div class="grid grid-cols-6 mt-10 gap-8">
+              <div class="lg:grid grid-cols-6 mt-10 gap-8">
                 <div class="col-span-4">
                   <div class="border border-gray rounded-lg">
-                    <div class="flex">
+                    <div class="hidden lg:flex ">
                       <div class="p-5 border border-gray w-2/4 flex items-center justify-center">Product</div>
                       <div class="p-5 border border-gray w-1/4 flex items-center justify-center">Quantity</div>
                       <div class="p-5 border border-gray w-1/4 flex items-center justify-center">Total</div>
                       <div class="p-5 border border-gray w-1/4 flex items-center justify-center"></div>
                     </div>
 
-                    <div class="flex">
-                      <div class="p-5 border border-gray w-2/4">
+                    <div class="flex flex-wrap ">
+                      <div class="p-2 lg:p-5 border border-gray w-2/4">
                         <div class="flex items-center gap-3">
                           <div class="w-32 overflow-hidden">
                             <img class="image" src="./images/img_product_cart.avif" alt="" />
@@ -99,7 +99,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="p-5 border border-gray w-1/4 flex justify-center">
+                      <div class="p-5 border border-gray w-1/4 justify-center lg:flex hidden">
                         <div class="flex items-center w-max relative">
                           <button type="button" class="text-lg block text-[0px] absolute left-4">
                             <span class="text-2xl leading-[24px]">-</span>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="flex">
-                      <div class="p-5 border border-gray w-2/4">
+                      <div class="p-2 lg:p-5 border border-gray w-2/4">
                         <div class="flex items-center gap-3">
                           <div class="w-32 overflow-hidden">
                             <img class="image" src="./images/img_product_cart2.avif" alt="" />
@@ -128,7 +128,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="p-5 border border-gray w-1/4 flex justify-center">
+                      <div class="p-5 border border-gray w-1/4 justify-center lg:flex hidden">
                         <div class="flex items-center w-max relative">
                           <button type="button" class="text-lg block text-[0px] absolute left-4">
                             <span class="text-2xl leading-[24px]">-</span>
@@ -152,7 +152,7 @@
                     <textarea name="" id="" placeholder="how can we help you?" class="text-md mt-3 border border-gray p-5 w-full" rows="5"></textarea>
                   </div>
                 </div>
-                <div class="col-span-2">
+                <div class="col-span-2 mt-6 lg:mt-0">
                   <div class="p-7 bg-[#f7f4ef] rounded-lg">
                     <h3 class="uppercase font-medium text-sm">FREE SHIPPING ON ORDERS $100.00</h3>
                     <p class="text-sm mt-2">Congratulations , you've got free shipping!</p>
